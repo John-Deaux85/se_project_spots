@@ -1,21 +1,23 @@
-# Project 3: Spots
+# Spots
 
-### Overview  
+Image sharing social hub
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+## Overview
+
+The basis for an image sharing social network.
+
+Profile has a personal name and description along with a profile picture and buttons for editing a personal profile and posting new content (buttons currently non-functional).
+
+Content section includes posted images with a description of the picture and a "like" button (also non-functional).
+
+## Techniques and Technology
+
+Built using VSCode, Figma and GitBash
+
+-HTML - including framework, image importing from Figma, lists, buttons and BEM classification
+
+CSS - styles with fonts, text overflow management, sizing of images, flexbox, gridbox, gaps and pseudo-elements including hover, import and media queries
+
+## Deployment
+
+http://john-deaux85.github.io/se_project_spots
