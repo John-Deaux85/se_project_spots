@@ -7,7 +7,7 @@
 .card__title {
   margin: 0;
   font-family: Poppins, Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0;
@@ -35,19 +35,18 @@
 
 .card__like-button:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+    border-radius: 8px;
   }
 
   .card__title {
     font-size: 16px;
     line-height: 1;
     max-width: 190px;
-  }
-
-  .card__like-button {
   }
 }

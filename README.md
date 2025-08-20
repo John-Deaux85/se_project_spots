@@ -21,3 +21,7 @@ CSS - styles with fonts, text overflow management, sizing of images, flexbox, gr
 ## Deployment
 
 http://john-deaux85.github.io/se_project_spots
+
+## Video Description
+
+https://drive.google.com/file/d/14W2k4x8YNh_V2FuQQddsN3J4Dqb0YGWo/view?usp=sharing
