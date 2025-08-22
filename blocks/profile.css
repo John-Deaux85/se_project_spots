@@ -32,6 +32,10 @@
 .profile__description {
   margin: 0;
   font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #333333;
+  opacity: 0.7;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -45,27 +49,20 @@
   justify-content: flex-start;
   align-items: center;
   margin-top: auto;
-  background-color: #fcf5e5;
+  background-color: transparent;
   border: none;
-  color: rgba(33, 33, 33, 0.7);
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #333333;
+  opacity: 0.7;
   text-wrap: nowrap;
   gap: 8px;
-  height: 16px;
-}
-
-.profile__edit-icon {
-  opacity: 0.7;
 }
 
 .profile__edit-button:hover {
-  color: rgba(33, 33, 33, 1);
-  cursor: pointer;
-}
-
-.profile__edit-icon:hover {
-  cursor: pointer;
-  color: rgba(33, 33, 33, 1);
   opacity: 1;
+  cursor: pointer;
 }
 
 .profile__post-button {
@@ -116,14 +113,11 @@
     font-size: 20px;
     margin-bottom: 6px;
     max-width: 288px;
-    color: rgb(33, 33, 33);
   }
 
   .profile__description {
     margin-bottom: 32px;
     max-width: 288px;
-    font-weight: 500;
-    color: rgba(33, 33, 33, 0.7);
   }
 
   .profile__post-button {
@@ -135,8 +129,5 @@
     justify-content: center;
     margin-bottom: 20px;
     padding: 0;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1;
   }
 }

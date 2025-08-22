@@ -2,6 +2,7 @@
   height: 413px;
   width: 100%;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .card__title {
@@ -41,7 +42,6 @@
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
-    border-radius: 8px;
   }
 
   .card__title {
