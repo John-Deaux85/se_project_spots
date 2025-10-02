@@ -49,11 +49,11 @@ newPostCloseButton.addEventListener("click", function () {
   newPostModal.classList.remove("modal_is-opened");
 });
 
-function handleProfileSubmit(evt) {
+function handleAddCardSubmit(evt) {
   evt.preventDefault();
-  postNameElement.textContent = postNameInput.value;
-  postPhotoElement.url = poistLinkInput.value;
+  console.log(postNameElement.value);
+  console.log(postLinkInput.value);
   newPostModal.classList.remove("modal_is-opened");
 }
 
-editProfileForm.addEventListener("submit", handleProfileSubmit);
+addCardFormElement.addEventListener("submit", handleAddCardSubmit);
